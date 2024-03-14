@@ -25,3 +25,15 @@ body {
 .menu-lateral{
     background-color: var(--azul-fundo);
 }
+footer{
+    text-align: center;
+}
+header h1{
+    text-align: center;
+    padding: 20px 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

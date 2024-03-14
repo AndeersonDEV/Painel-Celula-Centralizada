@@ -31,8 +31,10 @@
     list-style: none;
 
 }
-.menu-links-secundario li {
+.menu-links-secundario li a{
     display: flex;
     column-gap: 0.5rem;
     cursor: pointer;
+    text-decoration: none;
+    color: #fff;
 }

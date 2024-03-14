@@ -1,0 +1,27 @@
+.quadro__opcoes{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+.item__opcoes{
+    background-color: var(--cinza);
+    border-radius: 1rem;
+    width: 15rem;
+    display: flex;
+    padding: 1.5rem;
+    margin: 1rem ;
+    
+}
+.opcoes{
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background: var(--azul-fundo);
+    border-radius: 1rem;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+.fa-money-check-dollar,.xml, .fa-dumpster, .fa-truck, .fa-calendar-days{
+    font-size: 3rem;
+}

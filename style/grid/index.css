@@ -2,10 +2,15 @@ body{
     display: grid;
     grid-template-areas: 
     "aside header"
-    "aside main";
+    "aside main"
+    "aside footer";
     grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
 
 }
 .menu-lateral{
     grid-area: aside;
+}
+footer{
+    grid-area: footer;
 }
