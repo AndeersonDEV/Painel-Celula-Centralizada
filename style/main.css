@@ -2,13 +2,14 @@
     width: 100%;
     height: 100%;
     display: grid;
+    /* text-align: center; */
 }
 .item__opcoes{
     background-color: var(--cinza);
     border-radius: 1rem;
     width: 15rem;
     display: flex;
-    padding: 1.5rem;
+    padding: 1rem;
     margin: 1rem ;
     
 }
@@ -23,5 +24,21 @@
     padding: 0.5rem;
 }
 .fa-money-check-dollar,.xml, .fa-dumpster, .fa-truck, .fa-calendar-days{
-    font-size: 3rem;
+    font-size: 3.5rem;
+}
+.texto__opcoes a{
+    text-decoration: none;
+    color: #fff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+#GPO__agendamento{
+    margin-top: 52.5rem;
+}
+.iframe{
+    width: 100vw;
+    height: 100vh;
 }
