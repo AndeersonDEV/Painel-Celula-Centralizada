@@ -42,3 +42,62 @@ main{
     width: 100vw;
     height: 100vh;
 }
+button {
+    background: transparent;
+    border: none;
+    color: inherit;
+    padding: 0.1rem;
+    font-size: inherit;
+    cursor: pointer;
+    
+
+}
+.quadro__GPO{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3rem;
+    
+}
+.secao__cartoes{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+   
+    list-style: none;
+    
+}
+.secao__cartoes__item{
+    margin: 1rem;
+    background-color: var(--cinza);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.secao__cartoes__item a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+.cartao__botao{
+    padding-right: 0.2rem;
+    
+
+}
+.secao__cartoes__item a i{
+    font-size: 3rem;
+    color: #fff;
+}
+.secao__cartoes__item a h3{
+    color: #fff;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.cartao__botao{
+    align-self: center;
+}
+
+
+
