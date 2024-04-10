@@ -10,19 +10,21 @@
     <link rel="stylesheet" href="../style/aside.css">
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/grid/opcoes.css">
+    <link rel="stylesheet" href="../style/inbound.css">
+    <script src="../app/inbound.js" defer></script>
     <!-- <script src="./app/main.js" type="module" defer></script> -->
     <title>Painel Celula Centralizada</title>
 </head>
 <body>
     <header>
-        <h1>Agendamento Centalizado</h1>
+        <h1>Financeiro Inbound GPA Log</h1>
     </header>
     <aside class="menu-lateral">
         <a  href="#"><img class="menu-lateral-logo" src="../assets/logo.png" alt="logo gpa"></a>
         <nav class="menu-links-principal">
             <a href="../index.html"><i class="fa-solid fa-house"></i>Home</a>
-            <a href="#"><i class="fa-solid fa-people-group"></i>SLA Agendamento</a>
-            <a href="#"><i class="fa-solid fa-book"></i>Documentação</a>
+            <a href="#" class="indic"><i class="fa-solid fa-people-group"></i>Indicadores</a>
+            <a href="#" class="btngpo"><i class="fa-solid fa-book"></i>GPO</a>
         </nav>
         <h3>Ao vivo</h3>
         <ul class="menu-links-secundario">
@@ -32,12 +34,12 @@
         </ul>
     </aside>
     <main>
+        <iframe title="Financeiro Inbound" class="indicadores painel" src="https://app.powerbi.com/reportEmbed?reportId=228a5966-7187-4753-b37f-c453d089fe30&autoAuth=true&ctid=1a53e6b6-7562-4b9f-83d0-e71a8891667e" frameborder="0" allowFullScreen="true"></iframe>
         
-        
+        <iframe title="GPO" class="indicadores ativaGpo gpo" src="https://app.powerbi.com/reportEmbed?reportId=12e65149-9e9a-4bb4-abe7-3c6a7ccc28c8&autoAuth=true&ctid=1a53e6b6-7562-4b9f-83d0-e71a8891667e" frameborder="0" allowFullScreen="true"></iframe>
     
     </main>
 
-    <footer>Desenvolvido por Célula Centralizada</footer>
+    <!-- <footer>Desenvolvido por Célula Centralizada</footer> -->
 </body>
 </html>
-<!-- <iframe title="Financeiro Inbound" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=228a5966-7187-4753-b37f-c453d089fe30&autoAuth=true&ctid=1a53e6b6-7562-4b9f-83d0-e71a8891667e" frameborder="0" allowFullScreen="true"></iframe> -->
