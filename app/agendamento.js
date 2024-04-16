@@ -1,5 +1,5 @@
 const painelGpo = document.querySelector('.painelGeralGpo')
-const painelCentralizados = documente.querySelector('.painelCentralizados')
+const painelCentralizados = document.querySelector('.painelCentralizados')
 const painelPerformance = document.querySelector('.painelPerformance')
 const btnGPo = document.querySelector('.btnGpo')
 const btnIndicadores = document.querySelector('.btnIndGPo')
