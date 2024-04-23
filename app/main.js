@@ -19,3 +19,13 @@
 // btnServiceNow.addEventListener('click',() =>{
 //     iframe.setAttribute('src',urlServiceNow)
 // }) 
+let senha = 'Adm@2024'
+let href = 'https://app.powerbi.com/reportEmbed?reportId=81bec09b-a793-4bce-8aa2-a82f5a63d22d&autoAuth=true&ctid=1a53e6b6-7562-4b9f-83d0-e71a8891667e" target="_blank"><i class="fa-solid fa-people-group'
+function exibirCenso(){
+    let campoSenha = prompt('Digite a senha para acesso:')
+    if(campoSenha == senha){
+        document.getElementById('censo').setAttribute('href',href)
+    }else{
+        alert('Você não possui acesso, sai fora!!!')
+    }
+}
