@@ -1,4 +1,4 @@
-const btnindicadores = document.querySelector('.indic')
+const btnindicadores = document.querySelector('.btnindic')
 const btnGpo = document.querySelector('.btngpo')
 const telaIndicadores = document.querySelector('.painel')
 const telagpo = document.querySelector('.gpo')
@@ -10,7 +10,8 @@ btnindicadores.addEventListener('click', ()=>{
 
 
 btnGpo.addEventListener('click', ()=>{
-    telaIndicadores.classList.add('ativaGpo')
     telagpo.classList.remove('ativaGpo')
+    telaIndicadores.classList.add('ativaGpo')
+    
 })
 

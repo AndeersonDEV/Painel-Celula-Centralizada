@@ -26,6 +26,6 @@ function exibirCenso(){
     if(campoSenha == senha){
         document.getElementById('censo').setAttribute('href',href)
     }else{
-        alert('Você não possui acesso, sai fora!!!')
+        alert('Você não possui acesso !!')
     }
 }
