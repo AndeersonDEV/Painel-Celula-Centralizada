@@ -101,6 +101,14 @@ button {
 .cartao__botao{
     align-self: center;
 }
-
+.organograma{
+    width: 99%;
+    height: 87vh;
+    margin-left: 0.4rem;
+}
+.indicadores{
+    width: 87,5vw;
+    height: 89vh;
+ }
 
 

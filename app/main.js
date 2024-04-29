@@ -1,7 +1,27 @@
-// const btnAvalara = document.querySelector('.avalara')
-// const btnMotorista = document.querySelector('.motoristas')
-// const btnServiceNow = document.querySelector('.servicenow')
-// const iframe = document.querySelector('.iframe')
+const btnHome = document.querySelector('.btnTelaInicial')
+const btnCenso = document.querySelector('.btnCensoGeral')
+const btnOrgano = document.querySelector('.btnOrgano')
+const telaCenso = document.querySelector('#censo')
+const telaOrganograma = document.querySelector('.organograma')
+const telaInicial = document.querySelector('.quadro__opcoes')
+
+btnHome.addEventListener('click', ()=>{
+    telaInicial.classList.remove('ativaGpo')
+    telaCenso.classList.add('ativaGpo')
+    telaOrganograma.classList.add('ativaGpo')
+})
+btnCenso.addEventListener('click',()=>{
+    telaCenso.classList.remove('ativaGpo')
+    telaInicial.classList.add('ativaGpo')
+    telaOrganograma.classList.add('ativaGpo')
+})
+
+btnOrgano.addEventListener('click',()=>{
+    telaOrganograma.classList.remove('ativaGpo')
+    telaInicial.classList.add('ativaGpo')
+    telaCenso.classList.add('ativaGpo')
+})
+
 
 
 // const urlAvalara = 'file://1965dep01939848/Users/4351460/Desktop/Painel%20Avalara/Geral1.html'
@@ -19,13 +39,18 @@
 // btnServiceNow.addEventListener('click',() =>{
 //     iframe.setAttribute('src',urlServiceNow)
 // }) 
-let senha = 'Adm@2024'
-let href = 'https://app.powerbi.com/reportEmbed?reportId=81bec09b-a793-4bce-8aa2-a82f5a63d22d&autoAuth=true&ctid=1a53e6b6-7562-4b9f-83d0-e71a8891667e" target="_blank"><i class="fa-solid fa-people-group'
-function exibirCenso(){
-    let campoSenha = prompt('Digite a senha para acesso:')
-    if(campoSenha == senha){
-        document.getElementById('censo').setAttribute('href',href)
-    }else{
-        alert('Você não possui acesso !!')
-    }
-}
+// let senha = 'Adm@2024'
+// let texto = 'href=""'
+
+// let href = 'https://app.powerbi.com/reportEmbed?reportId=81bec09b-a793-4bce-8aa2-a82f5a63d22d&autoAuth=true&ctid=1a53e6b6-7562-4b9f-83d0-e71a8891667e'
+// let 
+// function exibirCenso(){
+//     let campoSenha = prompt('Digite a senha para acesso:')
+//     if(campoSenha == senha){
+//         document.getElementById('censo').setAttribute('href',href)
+//         // alert('Acesso liberado!!')
+//     }else{
+//         alert('Você não possui acesso !!')
+//     }
+// }
+
