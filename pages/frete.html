@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/grid/opcoes.css">
     <link rel="stylesheet" href="../style/frete.css">
-    <script src="../app/inbound.js" defer></script>
+    <script src="../app/frete.js" defer></script>
     
     <title>Painel Celula Centralizada</title>
 </head>
@@ -24,13 +24,13 @@
         <nav class="menu-links-principal">
             <a href="../index.html"><i class="fa-solid fa-house"></i>Home</a>
             <a href="#" class="btngpo"><i class="fa-solid fa-book"></i>GPO</a>
-            <a href="#" class="indic"><i class="fa-solid fa-people-group"></i>Indicadores</a>
+            <a href="#" class="btnindic"><i class="fa-solid fa-people-group"></i>Indicadores</a>
             
         </nav>
         
     </aside>
     <main>
-        <iframe title="GPO Frete" class="indicadores" src="https://app.powerbi.com/reportEmbed?reportId=2fd02fe7-6166-45b3-a7be-ca71249c47ac&autoAuth=true&ctid=1a53e6b6-7562-4b9f-83d0-e71a8891667e" frameborder="0" allowFullScreen="true"></iframe>
-
+        <iframe title="GPO Frete" class="indicadores" id="gpofrete" src="https://app.powerbi.com/reportEmbed?reportId=2fd02fe7-6166-45b3-a7be-ca71249c47ac&autoAuth=true&ctid=1a53e6b6-7562-4b9f-83d0-e71a8891667e" frameborder="0" allowFullScreen="true"></iframe>
+        <iframe title="INDICADORES" class="indicadores ativaGpo" id="indicfrete" src="https://app.powerbi.com/reportEmbed?reportId=8f735e41-7794-4325-89bf-84c892b9cf25&autoAuth=true&ctid=1a53e6b6-7562-4b9f-83d0-e71a8891667e" frameborder="0" allowFullScreen="true"></iframe>
 </body>
 </html>
